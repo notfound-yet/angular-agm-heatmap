@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { } from '@types/googlemaps';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class AppComponent {
+  
   private map: google.maps.Map = null;
   private heatmap: google.maps.visualization.HeatmapLayer = null;
   title = 'mapAngular';
