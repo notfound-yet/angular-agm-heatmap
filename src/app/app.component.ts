@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { } from '@types/googlemaps';
+declare let google: any;
 
 @Component({
   selector: 'app-root',
